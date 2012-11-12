@@ -15,6 +15,13 @@ that supports plugin bundles.)
     $ cd ~/.rbenv/plugins
     $ git clone https://github.com/jeremyvdw/rbenv-rbx_2.0.0-rc1_fix.git
 
+
+## Install gems
+
+Be sure to install gems using -X19 options (or gems will be installed under 18 mode)
+
+    $ gem -X19 install bundler
+
 ## License
 
 &copy; 2012 Jeremy Van de Wyngaert. Released under the MIT license. See
